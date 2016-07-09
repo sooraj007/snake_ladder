@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/sooraj007/snake_ladder/issues"
   },
-  "homepage": "https://github.com/sooraj007/snake_ladder#readme"
+  "homepage": "https://github.com/sooraj007/snake_ladder#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
