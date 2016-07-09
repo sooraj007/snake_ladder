@@ -1,0 +1,22 @@
+{
+  "name": "snake_ladder",
+  "version": "1.0.0",
+  "description": "Multi player snake and ladder game",
+  "main": "jquery.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sooraj007/snake_ladder.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "sooraj narayan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sooraj007/snake_ladder/issues"
+  },
+  "homepage": "https://github.com/sooraj007/snake_ladder#readme"
+}
