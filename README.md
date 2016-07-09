@@ -2,4 +2,5 @@
 
 This is a basic snake and ladder game you could download the game and try it yourself.
 
+Multi Player functionality in progress.
 
