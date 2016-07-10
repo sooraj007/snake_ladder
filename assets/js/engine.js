@@ -162,6 +162,7 @@ $(document).ready(function() {
                             } else {
                                 player2Flag = 1;
                             }
+                              $('#roll').removeAttr('disabled');
                         }, 3);
                     }, 1);
                 });
@@ -178,6 +179,7 @@ $(document).ready(function() {
     }
 
     $('#roll').click(function() {
+        $('#roll').attr('disabled',"true");
 
         var randVal = Math.floor(Math.random() * (6 - 1 + 1) + 1);
 
@@ -191,6 +193,37 @@ $(document).ready(function() {
 
 
 
+
+    var min = 1;
+    var max = 24;
+
+    /* $('#cube').click(function() {
+        var xRand = getRandom(max, min);
+        var yRand = getRandom(max, min);
+
+        //  cube.style.webkitTransform = 'rotateX(' + xRand + 'deg) rotateY(' + yRand + 'deg)';
+
+        $('#cube').css("webkitTransform", "rotateX(" + xRand + "deg) rotateY(" + yRand + "deg)").promise().done(function() {
+        
+        setTimeout(function(){
+
+                  $('.va').css("webkitTransform", "rotate(180deg)")  
+
+        },4000);
+   
+
+        });;
+        // cube.style.transform = 'rotateX(' + xRand + 'deg) rotateY(' + yRand + 'deg)';
+
+
+    });
+
+
+
+    function getRandom(max, min) {
+        return (Math.floor(Math.random() * (max - min)) + min) * 90;
+    }
+*/
 
 
 
